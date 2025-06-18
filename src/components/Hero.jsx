@@ -44,7 +44,7 @@ const Hero = () => {
           Matharishwa.S
         </Text>
         <TypeAnimation
-          sequence={["Fullstack Developer", 2000, "Data Analyst", 2000]}
+          sequence={["Fullstack Developer ,Data Analyst", 4000]}
           wrapper="h2"
           cursor={true}
           repeat={Infinity}
@@ -55,6 +55,7 @@ const Hero = () => {
             fontWeight: "medium",
           }}
         />
+
         <Button
           as="a"
           href="#about"
